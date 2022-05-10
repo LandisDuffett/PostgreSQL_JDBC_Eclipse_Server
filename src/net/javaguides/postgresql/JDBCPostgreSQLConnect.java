@@ -23,7 +23,7 @@ public class JDBCPostgreSQLConnect {
 			if(resultSet.next()) {
 				System.out.println(resultSet.getString(1));
 			}
-		} catch (SQLException e) {
+		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
